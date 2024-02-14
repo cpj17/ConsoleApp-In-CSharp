@@ -1,0 +1,12 @@
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\bin\Debug\Test 49.exe.config
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\bin\Debug\Test 49.exe
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\bin\Debug\Test 49.pdb
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\obj\Debug\Test 49.csprojResolveAssemblyReference.cache
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\obj\Debug\Test 49.exe
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 49\Test 49\obj\Debug\Test 49.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\bin\Debug\Test 49.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\obj\Debug\Test 49.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\obj\Debug\Test 49.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\bin\Debug\Test 49.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\bin\Debug\Test 49.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 49\Test 49\obj\Debug\Test 49.csprojResolveAssemblyReference.cache
