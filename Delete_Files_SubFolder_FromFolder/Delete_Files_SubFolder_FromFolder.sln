@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete_Files_SubFolder_FromFolder", "Delete_Files_SubFolder_FromFolder\Delete_Files_SubFolder_FromFolder.csproj", "{4ECF4C8A-9DE2-4698-ACC4-AFB55BD8C5B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ECF4C8A-9DE2-4698-ACC4-AFB55BD8C5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECF4C8A-9DE2-4698-ACC4-AFB55BD8C5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECF4C8A-9DE2-4698-ACC4-AFB55BD8C5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECF4C8A-9DE2-4698-ACC4-AFB55BD8C5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E4FE7F-312D-43EF-B455-FE4D54CEE20D}
+	EndGlobalSection
+EndGlobal

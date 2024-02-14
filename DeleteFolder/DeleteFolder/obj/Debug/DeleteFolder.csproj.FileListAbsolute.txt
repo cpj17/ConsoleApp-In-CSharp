@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\bin\Debug\DeleteFolder.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\bin\Debug\DeleteFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\bin\Debug\DeleteFolder.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\obj\Debug\DeleteFolder.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\obj\Debug\DeleteFolder.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\obj\Debug\DeleteFolder.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\obj\Debug\DeleteFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteFolder\DeleteFolder\obj\Debug\DeleteFolder.pdb

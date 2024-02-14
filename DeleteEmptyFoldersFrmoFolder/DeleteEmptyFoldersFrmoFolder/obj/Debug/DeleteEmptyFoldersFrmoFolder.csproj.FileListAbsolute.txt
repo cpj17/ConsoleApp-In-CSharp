@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\bin\Debug\DeleteEmptyFoldersFrmoFolder.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\bin\Debug\DeleteEmptyFoldersFrmoFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\bin\Debug\DeleteEmptyFoldersFrmoFolder.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\obj\Debug\DeleteEmptyFoldersFrmoFolder.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\obj\Debug\DeleteEmptyFoldersFrmoFolder.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\obj\Debug\DeleteEmptyFoldersFrmoFolder.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\obj\Debug\DeleteEmptyFoldersFrmoFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteEmptyFoldersFrmoFolder\DeleteEmptyFoldersFrmoFolder\obj\Debug\DeleteEmptyFoldersFrmoFolder.pdb
