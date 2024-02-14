@@ -1,0 +1,5 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 36\Test 36\bin\Debug\Test 36.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 36\Test 36\bin\Debug\Test 36.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 36\Test 36\bin\Debug\Test 36.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 36\Test 36\obj\Debug\Test 36.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 36\Test 36\obj\Debug\Test 36.pdb

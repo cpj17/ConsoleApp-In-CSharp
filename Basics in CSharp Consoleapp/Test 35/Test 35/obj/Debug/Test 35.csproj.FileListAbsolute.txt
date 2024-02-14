@@ -1,0 +1,7 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\bin\Debug\Test 35.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\bin\Debug\Test 35.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\bin\Debug\Test 35.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\obj\Debug\Test 35.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\obj\Debug\Test 35.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\obj\Debug\Test 35.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 35\Test 35\obj\Debug\Test 35.csproj.AssemblyReference.cache
