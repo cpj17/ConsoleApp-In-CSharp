@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BE_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="GL_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="LONG_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ACL_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DETAIL_ACCOUNT" type="xs:string" minOccurs="0" />
+                <xs:element name="GL_LEVEL" type="xs:string" minOccurs="0" />
+                <xs:element name="SUMMARY_REPORT" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED_ON" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED_AT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODIFIED_ON" type="xs:string" minOccurs="0" />
+                <xs:element name="MODIFIED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="MODIFIED_AT" type="xs:string" minOccurs="0" />
+                <xs:element name="DELMARK" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTROL_ACCOUNT" type="xs:string" minOccurs="0" />
+                <xs:element name="DB_ROW_COUNT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>102800</GL_ID>
+    <NAME>DBS SGD</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-11-07T17:58:06+05:30</CREATED_ON>
+    <CREATED_BY>WAICHING</CREATED_BY>
+    <CREATED_AT>SINPC001</CREATED_AT>
+    <MODIFIED_ON>2018-11-07T17:58:06+05:30</MODIFIED_ON>
+    <MODIFIED_BY>WAICHING</MODIFIED_BY>
+    <MODIFIED_AT>SINPC001</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>NONE</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>102810</GL_ID>
+    <NAME>DBS USD</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-11-07T17:58:24+05:30</CREATED_ON>
+    <CREATED_BY>WAICHING</CREATED_BY>
+    <CREATED_AT>SINPC001</CREATED_AT>
+    <MODIFIED_ON>2018-11-07T17:58:24+05:30</MODIFIED_ON>
+    <MODIFIED_BY>WAICHING</MODIFIED_BY>
+    <MODIFIED_AT>SINPC001</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>NONE</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>102820</GL_ID>
+    <NAME>DBS EUR</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-11-07T17:58:39+05:30</CREATED_ON>
+    <CREATED_BY>WAICHING</CREATED_BY>
+    <CREATED_AT>SINPC001</CREATED_AT>
+    <MODIFIED_ON>2018-11-07T17:58:39+05:30</MODIFIED_ON>
+    <MODIFIED_BY>WAICHING</MODIFIED_BY>
+    <MODIFIED_AT>SINPC001</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>NONE</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>110000</GL_ID>
+    <NAME>Trade Debtors</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>0</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-09-01T15:32:40+05:30</CREATED_ON>
+    <CREATED_BY>ADMIN</CREATED_BY>
+    <CREATED_AT>ADMIN</CREATED_AT>
+    <MODIFIED_ON>2018-09-22T17:06:07+05:30</MODIFIED_ON>
+    <MODIFIED_BY>ADMIN</MODIFIED_BY>
+    <MODIFIED_AT>ACER</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>AR</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>110250</GL_ID>
+    <NAME>110250</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>N</DETAIL_ACCOUNT>
+    <GL_LEVEL>0</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-09-01T00:00:00+05:30</CREATED_ON>
+    <CREATED_BY>ADMIN</CREATED_BY>
+    <CREATED_AT>ADMIN</CREATED_AT>
+    <MODIFIED_ON>2018-09-19T22:51:13+05:30</MODIFIED_ON>
+    <MODIFIED_BY>ADMIN</MODIFIED_BY>
+    <MODIFIED_AT>SINGAP01</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>NONE</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>111011</GL_ID>
+    <NAME>111011</NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>0</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-09-01T00:00:00+05:30</CREATED_ON>
+    <CREATED_BY>ADMIN</CREATED_BY>
+    <CREATED_AT>ADMIN</CREATED_AT>
+    <MODIFIED_ON>2018-09-19T22:51:13+05:30</MODIFIED_ON>
+    <MODIFIED_BY>ADMIN</MODIFIED_BY>
+    <MODIFIED_AT>SINGAP01</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>NONE</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>200000</GL_ID>
+    <NAME>200000</NAME>
+    <LONG_NAME>0.0</LONG_NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2018-11-23T23:46:42+05:30</CREATED_ON>
+    <CREATED_BY>ADMIN</CREATED_BY>
+    <CREATED_AT>SINGAP01</CREATED_AT>
+    <MODIFIED_ON>2021-06-10T19:52:10+05:30</MODIFIED_ON>
+    <MODIFIED_BY>PRAVEEN</MODIFIED_BY>
+    <MODIFIED_AT>GSI-DTP-15-001</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>AR</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>2220222</GL_ID>
+    <NAME>New Edited</NAME>
+    <LONG_NAME>0.0</LONG_NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2021-06-11T19:54:40+05:30</CREATED_ON>
+    <CREATED_BY>PRAVEEN</CREATED_BY>
+    <CREATED_AT>GSIVM-SVR-DEVSC</CREATED_AT>
+    <MODIFIED_ON>2021-06-17T18:40:39+05:30</MODIFIED_ON>
+    <MODIFIED_BY>PRAVEEN</MODIFIED_BY>
+    <MODIFIED_AT>GSIVM-SVR-DEVSC</MODIFIED_AT>
+    <DELMARK>N</DELMARK>
+    <CONTROL_ACCOUNT>AP</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+  <Table>
+    <BE_ID>BSPL</BE_ID>
+    <GL_ID>2220333</GL_ID>
+    <NAME>NEW 333</NAME>
+    <LONG_NAME>0.0</LONG_NAME>
+    <ACL_ID>NA</ACL_ID>
+    <DETAIL_ACCOUNT>Y</DETAIL_ACCOUNT>
+    <GL_LEVEL>1</GL_LEVEL>
+    <SUMMARY_REPORT>N</SUMMARY_REPORT>
+    <CREATED_ON>2021-06-17T18:41:01+05:30</CREATED_ON>
+    <CREATED_BY>PRAVEEN</CREATED_BY>
+    <CREATED_AT>GSIVM-SVR-DEVSC</CREATED_AT>
+    <MODIFIED_ON>2021-06-22T10:09:36+05:30</MODIFIED_ON>
+    <MODIFIED_BY>PRAVEEN</MODIFIED_BY>
+    <MODIFIED_AT>GSI-DTP-15-001</MODIFIED_AT>
+    <DELMARK>Y</DELMARK>
+    <CONTROL_ACCOUNT>AP</CONTROL_ACCOUNT>
+    <DB_ROW_COUNT>9</DB_ROW_COUNT>
+  </Table>
+</NewDataSet>
