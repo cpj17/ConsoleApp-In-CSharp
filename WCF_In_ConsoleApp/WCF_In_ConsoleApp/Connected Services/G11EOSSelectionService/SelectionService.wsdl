@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="SelectionService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_ISelectionService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd2" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISelectionService_ChangePasswordR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ChangePasswordR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ValidateUserLoginFromDB_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserLoginFromDB" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ValidateUserLoginFromDB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateUserLoginFromDBResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ChangePasswordR1V2_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordR1V2" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ChangePasswordR1V2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordR1V2Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveServerLinkR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveServerLinkR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveServerLinkR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveServerLinkR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveVersionNoR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveVersionNoR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveVersionNoR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveVersionNoR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveLOV1R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveLOV1R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveLOV1R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveLOV1R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV2R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV2R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV2R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV2R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV3R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV3R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV3R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV3R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV4R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV4R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV4R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV4R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV5R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV5R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV5R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV5R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV6R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV6R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveLOV6R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveLOV6R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveYardLocationLOVR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveYardLocationLOVR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveYardLocationLOVR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveYardLocationLOVR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveDBConnectionR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveDBConnectionR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveDBConnectionR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveDBConnectionR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ServerThisMthStartEndDateR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServerThisMthStartEndDateR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ServerThisMthStartEndDateR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServerThisMthStartEndDateR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveEndOfMonthR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveEndOfMonthR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveEndOfMonthR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveEndOfMonthR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveStartOfMonthR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveStartOfMonthR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveStartOfMonthR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveStartOfMonthR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetDataTableDefaultValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTableDefaultValue" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetDataTableDefaultValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTableDefaultValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_MasterValidateCountR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:MasterValidateCountR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_MasterValidateCountR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MasterValidateCountR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveMasterTableDetailsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveMasterTableDetailsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_RetrieveMasterTableDetailsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveMasterTableDetailsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetUserSettingsR1V2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSettingsR1V2" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetUserSettingsR1V2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSettingsR1V2Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ServerDefaultDateTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServerDefaultDateTime" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ServerDefaultDateTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServerDefaultDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveGetPickLocationLOVR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveGetPickLocationLOVR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveGetPickLocationLOVR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveGetPickLocationLOVR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveGetLocationLOVR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveGetLocationLOVR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveGetLocationLOVR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveGetLocationLOVR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveOutStandingBillR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveOutStandingBillR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveOutStandingBillR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveOutStandingBillR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveSingleExrateLOVR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveSingleExrateLOVR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ReteriveSingleExrateLOVR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReteriveSingleExrateLOVR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsVersionsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsVersionsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsVersionsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsVersionsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_DataManipulationReportingToolsSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataManipulationReportingToolsSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_DataManipulationReportingToolsSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataManipulationReportingToolsSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolArgumentsTableR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolArgumentsTableR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolArgumentsTableR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolArgumentsTableR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsAccessSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsAccessSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsAccessSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsAccessSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportUserSettingTableR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportUserSettingTableR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportUserSettingTableR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportUserSettingTableR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsVersionSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsVersionSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetReportingToolsVersionSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportingToolsVersionSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolsSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolsSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolsSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolsSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolArgumentsTableR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolArgumentsTableR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolArgumentsTableR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolArgumentsTableR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolsAccessSettingsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolsAccessSettingsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportingToolsAccessSettingsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportingToolsAccessSettingsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportUserSettingTableR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportUserSettingTableR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetServerReportUserSettingTableR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerReportUserSettingTableR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ListCustomerR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListCustomerR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ListCustomerR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListCustomerR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ListWarehouseR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListWarehouseR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_ListWarehouseR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListWarehouseR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetAutotaskconfigTableR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAutotaskconfigTableR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetAutotaskconfigTableR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAutotaskconfigTableR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetComponentAccessPolicyR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetComponentAccessPolicyR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetComponentAccessPolicyR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetComponentAccessPolicyR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetDocReportAccessPolicyR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocReportAccessPolicyR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetDocReportAccessPolicyR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocReportAccessPolicyR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetUIRelatedTablesR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUIRelatedTablesR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetUIRelatedTablesR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUIRelatedTablesR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetCompanyLogoR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyLogoR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISelectionService_GetCompanyLogoR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCompanyLogoR1V1Response" />
+  </wsdl:message>
+  <wsdl:portType name="ISelectionService">
+    <wsdl:operation name="ChangePasswordR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ChangePasswordR1V1" message="tns:ISelectionService_ChangePasswordR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ChangePasswordR1V1Response" message="tns:ISelectionService_ChangePasswordR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUserLoginFromDB">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ValidateUserLoginFromDB" message="tns:ISelectionService_ValidateUserLoginFromDB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ValidateUserLoginFromDBResponse" message="tns:ISelectionService_ValidateUserLoginFromDB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePasswordR1V2">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ChangePasswordR1V2" message="tns:ISelectionService_ChangePasswordR1V2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ChangePasswordR1V2Response" message="tns:ISelectionService_ChangePasswordR1V2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveServerLinkR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveServerLinkR1V1" message="tns:ISelectionService_ReteriveServerLinkR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveServerLinkR1V1Response" message="tns:ISelectionService_ReteriveServerLinkR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveVersionNoR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveVersionNoR1V1" message="tns:ISelectionService_ReteriveVersionNoR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveVersionNoR1V1Response" message="tns:ISelectionService_ReteriveVersionNoR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveLOV1R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/RetrieveLOV1R1V1" message="tns:ISelectionService_RetrieveLOV1R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/RetrieveLOV1R1V1Response" message="tns:ISelectionService_RetrieveLOV1R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV2R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV2R1V1" message="tns:ISelectionService_ReteriveLOV2R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV2R1V1Response" message="tns:ISelectionService_ReteriveLOV2R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV3R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV3R1V1" message="tns:ISelectionService_ReteriveLOV3R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV3R1V1Response" message="tns:ISelectionService_ReteriveLOV3R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV4R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV4R1V1" message="tns:ISelectionService_ReteriveLOV4R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV4R1V1Response" message="tns:ISelectionService_ReteriveLOV4R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV5R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV5R1V1" message="tns:ISelectionService_ReteriveLOV5R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV5R1V1Response" message="tns:ISelectionService_ReteriveLOV5R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV6R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV6R1V1" message="tns:ISelectionService_ReteriveLOV6R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveLOV6R1V1Response" message="tns:ISelectionService_ReteriveLOV6R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveYardLocationLOVR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveYardLocationLOVR1V1" message="tns:ISelectionService_ReteriveYardLocationLOVR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveYardLocationLOVR1V1Response" message="tns:ISelectionService_ReteriveYardLocationLOVR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveDBConnectionR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveDBConnectionR1V1" message="tns:ISelectionService_ReteriveDBConnectionR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveDBConnectionR1V1Response" message="tns:ISelectionService_ReteriveDBConnectionR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerThisMthStartEndDateR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ServerThisMthStartEndDateR1V1" message="tns:ISelectionService_ServerThisMthStartEndDateR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ServerThisMthStartEndDateR1V1Response" message="tns:ISelectionService_ServerThisMthStartEndDateR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveEndOfMonthR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/RetrieveEndOfMonthR1V1" message="tns:ISelectionService_RetrieveEndOfMonthR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/RetrieveEndOfMonthR1V1Response" message="tns:ISelectionService_RetrieveEndOfMonthR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveStartOfMonthR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/RetrieveStartOfMonthR1V1" message="tns:ISelectionService_RetrieveStartOfMonthR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/RetrieveStartOfMonthR1V1Response" message="tns:ISelectionService_RetrieveStartOfMonthR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableDefaultValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetDataTableDefaultValue" message="tns:ISelectionService_GetDataTableDefaultValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetDataTableDefaultValueResponse" message="tns:ISelectionService_GetDataTableDefaultValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MasterValidateCountR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/MasterValidateCountR1V1" message="tns:ISelectionService_MasterValidateCountR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/MasterValidateCountR1V1Response" message="tns:ISelectionService_MasterValidateCountR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveMasterTableDetailsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/RetrieveMasterTableDetailsR1V1" message="tns:ISelectionService_RetrieveMasterTableDetailsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/RetrieveMasterTableDetailsR1V1Response" message="tns:ISelectionService_RetrieveMasterTableDetailsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSettingsR1V2">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetUserSettingsR1V2" message="tns:ISelectionService_GetUserSettingsR1V2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetUserSettingsR1V2Response" message="tns:ISelectionService_GetUserSettingsR1V2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerDefaultDateTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ServerDefaultDateTime" message="tns:ISelectionService_ServerDefaultDateTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ServerDefaultDateTimeResponse" message="tns:ISelectionService_ServerDefaultDateTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveGetPickLocationLOVR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveGetPickLocationLOVR1V1" message="tns:ISelectionService_ReteriveGetPickLocationLOVR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveGetPickLocationLOVR1V1Response" message="tns:ISelectionService_ReteriveGetPickLocationLOVR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveGetLocationLOVR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveGetLocationLOVR1V1" message="tns:ISelectionService_ReteriveGetLocationLOVR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveGetLocationLOVR1V1Response" message="tns:ISelectionService_ReteriveGetLocationLOVR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveOutStandingBillR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveOutStandingBillR1V1" message="tns:ISelectionService_ReteriveOutStandingBillR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveOutStandingBillR1V1Response" message="tns:ISelectionService_ReteriveOutStandingBillR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveSingleExrateLOVR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ReteriveSingleExrateLOVR1V1" message="tns:ISelectionService_ReteriveSingleExrateLOVR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ReteriveSingleExrateLOVR1V1Response" message="tns:ISelectionService_ReteriveSingleExrateLOVR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsSettingsR1V1" message="tns:ISelectionService_GetReportingToolsSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsSettingsR1V1Response" message="tns:ISelectionService_GetReportingToolsSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsVersionsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsVersionsR1V1" message="tns:ISelectionService_GetReportingToolsVersionsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsVersionsR1V1Response" message="tns:ISelectionService_GetReportingToolsVersionsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataManipulationReportingToolsSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/DataManipulationReportingToolsSettingsR1V1" message="tns:ISelectionService_DataManipulationReportingToolsSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/DataManipulationReportingToolsSettingsR1V1Response" message="tns:ISelectionService_DataManipulationReportingToolsSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolArgumentsTableR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolArgumentsTableR1V1" message="tns:ISelectionService_GetReportingToolArgumentsTableR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolArgumentsTableR1V1Response" message="tns:ISelectionService_GetReportingToolArgumentsTableR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsAccessSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsAccessSettingsR1V1" message="tns:ISelectionService_GetReportingToolsAccessSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsAccessSettingsR1V1Response" message="tns:ISelectionService_GetReportingToolsAccessSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportUserSettingTableR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportUserSettingTableR1V1" message="tns:ISelectionService_GetReportUserSettingTableR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportUserSettingTableR1V1Response" message="tns:ISelectionService_GetReportUserSettingTableR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsVersionSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsVersionSettingsR1V1" message="tns:ISelectionService_GetReportingToolsVersionSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetReportingToolsVersionSettingsR1V1Response" message="tns:ISelectionService_GetReportingToolsVersionSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolsSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolsSettingsR1V1" message="tns:ISelectionService_GetServerReportingToolsSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolsSettingsR1V1Response" message="tns:ISelectionService_GetServerReportingToolsSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolArgumentsTableR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolArgumentsTableR1V1" message="tns:ISelectionService_GetServerReportingToolArgumentsTableR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolArgumentsTableR1V1Response" message="tns:ISelectionService_GetServerReportingToolArgumentsTableR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolsAccessSettingsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolsAccessSettingsR1V1" message="tns:ISelectionService_GetServerReportingToolsAccessSettingsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportingToolsAccessSettingsR1V1Response" message="tns:ISelectionService_GetServerReportingToolsAccessSettingsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportUserSettingTableR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportUserSettingTableR1V1" message="tns:ISelectionService_GetServerReportUserSettingTableR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetServerReportUserSettingTableR1V1Response" message="tns:ISelectionService_GetServerReportUserSettingTableR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListCustomerR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ListCustomerR1V1" message="tns:ISelectionService_ListCustomerR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ListCustomerR1V1Response" message="tns:ISelectionService_ListCustomerR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListWarehouseR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/ListWarehouseR1V1" message="tns:ISelectionService_ListWarehouseR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/ListWarehouseR1V1Response" message="tns:ISelectionService_ListWarehouseR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAutotaskconfigTableR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetAutotaskconfigTableR1V1" message="tns:ISelectionService_GetAutotaskconfigTableR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetAutotaskconfigTableR1V1Response" message="tns:ISelectionService_GetAutotaskconfigTableR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetComponentAccessPolicyR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetComponentAccessPolicyR1V1" message="tns:ISelectionService_GetComponentAccessPolicyR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetComponentAccessPolicyR1V1Response" message="tns:ISelectionService_GetComponentAccessPolicyR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocReportAccessPolicyR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetDocReportAccessPolicyR1V1" message="tns:ISelectionService_GetDocReportAccessPolicyR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetDocReportAccessPolicyR1V1Response" message="tns:ISelectionService_GetDocReportAccessPolicyR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUIRelatedTablesR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetUIRelatedTablesR1V1" message="tns:ISelectionService_GetUIRelatedTablesR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetUIRelatedTablesR1V1Response" message="tns:ISelectionService_GetUIRelatedTablesR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyLogoR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISelectionService/GetCompanyLogoR1V1" message="tns:ISelectionService_GetCompanyLogoR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISelectionService/GetCompanyLogoR1V1Response" message="tns:ISelectionService_GetCompanyLogoR1V1_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISelectionService" type="tns:ISelectionService">
+    <wsp:PolicyReference URI="#BasicHttpBinding_ISelectionService_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChangePasswordR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ChangePasswordR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUserLoginFromDB">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ValidateUserLoginFromDB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePasswordR1V2">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ChangePasswordR1V2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveServerLinkR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveServerLinkR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveVersionNoR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveVersionNoR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveLOV1R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/RetrieveLOV1R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV2R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveLOV2R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV3R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveLOV3R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV4R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveLOV4R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV5R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveLOV5R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveLOV6R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveLOV6R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveYardLocationLOVR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveYardLocationLOVR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveDBConnectionR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveDBConnectionR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerThisMthStartEndDateR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ServerThisMthStartEndDateR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveEndOfMonthR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/RetrieveEndOfMonthR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveStartOfMonthR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/RetrieveStartOfMonthR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableDefaultValue">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetDataTableDefaultValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MasterValidateCountR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/MasterValidateCountR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveMasterTableDetailsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/RetrieveMasterTableDetailsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSettingsR1V2">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetUserSettingsR1V2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerDefaultDateTime">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ServerDefaultDateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveGetPickLocationLOVR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveGetPickLocationLOVR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveGetLocationLOVR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveGetLocationLOVR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveOutStandingBillR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveOutStandingBillR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReteriveSingleExrateLOVR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ReteriveSingleExrateLOVR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportingToolsSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsVersionsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportingToolsVersionsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataManipulationReportingToolsSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/DataManipulationReportingToolsSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolArgumentsTableR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportingToolArgumentsTableR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsAccessSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportingToolsAccessSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportUserSettingTableR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportUserSettingTableR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingToolsVersionSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetReportingToolsVersionSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolsSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetServerReportingToolsSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolArgumentsTableR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetServerReportingToolArgumentsTableR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportingToolsAccessSettingsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetServerReportingToolsAccessSettingsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerReportUserSettingTableR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetServerReportUserSettingTableR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListCustomerR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ListCustomerR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListWarehouseR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/ListWarehouseR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAutotaskconfigTableR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetAutotaskconfigTableR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetComponentAccessPolicyR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetComponentAccessPolicyR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocReportAccessPolicyR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetDocReportAccessPolicyR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUIRelatedTablesR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetUIRelatedTablesR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyLogoR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISelectionService/GetCompanyLogoR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SelectionService">
+    <wsdl:port name="BasicHttpBinding_ISelectionService" binding="tns:BasicHttpBinding_ISelectionService">
+      <soap:address location="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc/basic" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="SMSSERVICE" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_ISMSSERVICE_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd2" />
+      <xsd:import schemaLocation="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISMSSERVICE_DataManipulationR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataManipulationR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_DataManipulationR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataManipulationR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List1R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:List1R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List1R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:List1R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List2R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:List2R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List2R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:List2R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List3R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:List3R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List3R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:List3R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List4R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:List4R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List4R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:List4R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List5R1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:List5R1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_List5R1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:List5R1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListRecordCountR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListRecordCountR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListRecordCountR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListRecordCountR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListR2V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListR2V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListR2V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListR2V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_UpdateSMSDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSMSDetails" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_UpdateSMSDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSMSDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_UpdateSMSDetailsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSMSDetailsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_UpdateSMSDetailsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSMSDetailsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListSMSDetailsR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListSMSDetailsR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListSMSDetailsR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListSMSDetailsR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListSMSDetailsR2V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListSMSDetailsR2V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ListSMSDetailsR2V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListSMSDetailsR2V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportToExcelLastRecordR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExportToExcelLastRecordR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportToExcelLastRecordR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExportToExcelLastRecordR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportCommonWindowToExcelR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExportCommonWindowToExcelR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportCommonWindowToExcelR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExportCommonWindowToExcelR1V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportSearchToExcelR1V1_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExportSearchToExcelR1V1" />
+  </wsdl:message>
+  <wsdl:message name="ISMSSERVICE_ExportSearchToExcelR1V1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExportSearchToExcelR1V1Response" />
+  </wsdl:message>
+  <wsdl:portType name="ISMSSERVICE">
+    <wsdl:operation name="DataManipulationR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/DataManipulationR1V1" message="tns:ISMSSERVICE_DataManipulationR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/DataManipulationR1V1Response" message="tns:ISMSSERVICE_DataManipulationR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List1R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/List1R1V1" message="tns:ISMSSERVICE_List1R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/List1R1V1Response" message="tns:ISMSSERVICE_List1R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List2R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/List2R1V1" message="tns:ISMSSERVICE_List2R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/List2R1V1Response" message="tns:ISMSSERVICE_List2R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List3R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/List3R1V1" message="tns:ISMSSERVICE_List3R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/List3R1V1Response" message="tns:ISMSSERVICE_List3R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List4R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/List4R1V1" message="tns:ISMSSERVICE_List4R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/List4R1V1Response" message="tns:ISMSSERVICE_List4R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="List5R1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/List5R1V1" message="tns:ISMSSERVICE_List5R1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/List5R1V1Response" message="tns:ISMSSERVICE_List5R1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListRecordCountR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ListRecordCountR1V1" message="tns:ISMSSERVICE_ListRecordCountR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ListRecordCountR1V1Response" message="tns:ISMSSERVICE_ListRecordCountR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListR2V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ListR2V1" message="tns:ISMSSERVICE_ListR2V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ListR2V1Response" message="tns:ISMSSERVICE_ListR2V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSMSDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/UpdateSMSDetails" message="tns:ISMSSERVICE_UpdateSMSDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/UpdateSMSDetailsResponse" message="tns:ISMSSERVICE_UpdateSMSDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSMSDetailsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/UpdateSMSDetailsR1V1" message="tns:ISMSSERVICE_UpdateSMSDetailsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/UpdateSMSDetailsR1V1Response" message="tns:ISMSSERVICE_UpdateSMSDetailsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSMSDetailsR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR1V1" message="tns:ISMSSERVICE_ListSMSDetailsR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR1V1Response" message="tns:ISMSSERVICE_ListSMSDetailsR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSMSDetailsR2V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR2V1" message="tns:ISMSSERVICE_ListSMSDetailsR2V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR2V1Response" message="tns:ISMSSERVICE_ListSMSDetailsR2V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportToExcelLastRecordR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportToExcelLastRecordR1V1" message="tns:ISMSSERVICE_ExportToExcelLastRecordR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportToExcelLastRecordR1V1Response" message="tns:ISMSSERVICE_ExportToExcelLastRecordR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportCommonWindowToExcelR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportCommonWindowToExcelR1V1" message="tns:ISMSSERVICE_ExportCommonWindowToExcelR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportCommonWindowToExcelR1V1Response" message="tns:ISMSSERVICE_ExportCommonWindowToExcelR1V1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExportSearchToExcelR1V1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportSearchToExcelR1V1" message="tns:ISMSSERVICE_ExportSearchToExcelR1V1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMSSERVICE/ExportSearchToExcelR1V1Response" message="tns:ISMSSERVICE_ExportSearchToExcelR1V1_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISMSSERVICE" type="tns:ISMSSERVICE">
+    <wsp:PolicyReference URI="#BasicHttpBinding_ISMSSERVICE_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DataManipulationR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/DataManipulationR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List1R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/List1R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List2R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/List2R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List3R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/List3R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List4R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/List4R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="List5R1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/List5R1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListRecordCountR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ListRecordCountR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListR2V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ListR2V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSMSDetails">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/UpdateSMSDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSMSDetailsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/UpdateSMSDetailsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListSMSDetailsR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListSMSDetailsR2V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ListSMSDetailsR2V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportToExcelLastRecordR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ExportToExcelLastRecordR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportCommonWindowToExcelR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ExportCommonWindowToExcelR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExportSearchToExcelR1V1">
+      <soap:operation soapAction="http://tempuri.org/ISMSSERVICE/ExportSearchToExcelR1V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SMSSERVICE">
+    <wsdl:port name="BasicHttpBinding_ISMSSERVICE" binding="tns:BasicHttpBinding_ISMSSERVICE">
+      <soap:address location="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc/basic" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

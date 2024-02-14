@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c8c967cb-9878-4a7f-998f-5ab78fc8ac44" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_web/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="52f44c6d-1d27-4f4c-8b82-eb2783302bd6" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="6ae3741d-fcdf-4266-afe7-214e5cf92202" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd4" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="9e7be0b5-009f-46ac-873f-1be97534983a" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?disco" />
+    <MetadataFile FileName="SelectionService.wsdl" MetadataType="Wsdl" ID="0d7f4c9e-4ca7-4558-bd00-49d524dcdbe0" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="e9a6e46b-abc4-48de-aa2d-d30eabd93ecd" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="bff5c0dd-c7c3-4894-bdb7-6c8c364526c5" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service4.xsd" MetadataType="Schema" ID="01032e6b-76ec-453e-820b-28a4cb6088c0" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9403/PRDG11EOSMWSelectionService_Web/Service.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

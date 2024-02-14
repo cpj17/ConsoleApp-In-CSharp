@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0524C627-0B03-42D4-A068-A865CDC88B56}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WCF_In_ConsoleApp</RootNamespace>
+    <AssemblyName>WCF_In_ConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\G11EOSSelectionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\GSSMSService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Connected Services\G11EOSSelectionService\SelectionService.wsdl" />
+    <None Include="Connected Services\G11EOSSelectionService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\Service4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ChangePasswordR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ChangePasswordR1V2Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.DataManipulationReportingToolsSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetAutotaskconfigTableR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetCompanyLogoR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetComponentAccessPolicyR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetDataTableDefaultValueResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetDocReportAccessPolicyR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportingToolArgumentsTableR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportingToolsAccessSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportingToolsSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportingToolsVersionSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportingToolsVersionsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetReportUserSettingTableR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetServerReportingToolArgumentsTableR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetServerReportingToolsAccessSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetServerReportingToolsSettingsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetServerReportUserSettingTableR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetUIRelatedTablesR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.GetUserSettingsR1V2Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ListCustomerR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ListWarehouseR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.MasterValidateCountR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveDBConnectionR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveGetLocationLOVR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveGetPickLocationLOVR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveLOV2R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveLOV3R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveLOV4R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveLOV5R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveLOV6R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveOutStandingBillR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveServerLinkR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveSingleExrateLOVR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveVersionNoR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ReteriveYardLocationLOVR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.RetrieveEndOfMonthR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.RetrieveLOV1R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.RetrieveMasterTableDetailsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.RetrieveStartOfMonthR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ServerDefaultDateTimeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ServerThisMthStartEndDateR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\G11EOSSelectionService\WCF_In_ConsoleApp.G11EOSSelectionService.ValidateUserLoginFromDBResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GSSMSService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GSSMSService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GSSMSService\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GSSMSService\SMSSERVICE.wsdl" />
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.DataManipulationR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ExportCommonWindowToExcelR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ExportSearchToExcelR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ExportToExcelLastRecordR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.List1R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.List2R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.List3R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.List4R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.List5R1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ListR2V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ListRecordCountR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ListSMSDetailsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.ListSMSDetailsR2V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.UpdateSMSDetailsR1V1Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GSSMSService\WCF_In_ConsoleApp.GSSMSService.UpdateSMSDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\G11EOSSelectionService\" />
+    <WCFMetadataStorage Include="Connected Services\GSSMSService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\G11EOSSelectionService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\G11EOSSelectionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\G11EOSSelectionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\G11EOSSelectionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GSSMSService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GSSMSService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GSSMSService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GSSMSService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\obj\Debug\WCF_In_ConsoleApp.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\obj\Debug\WCF_In_ConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\obj\Debug\WCF_In_ConsoleApp.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\bin\Debug\WCF_In_ConsoleApp.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\bin\Debug\WCF_In_ConsoleApp.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\bin\Debug\WCF_In_ConsoleApp.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\obj\Debug\WCF_In_ConsoleApp.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\WCF_In_ConsoleApp\WCF_In_ConsoleApp\obj\Debug\WCF_In_ConsoleApp.pdb

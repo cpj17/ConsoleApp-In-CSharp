@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="a6a8b453-fa6a-46c4-8357-bcea2a41ff69" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SMSSERVICE.wsdl" MetadataType="Wsdl" ID="ebfd0c66-419d-452d-ab49-771b3f9c54d7" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?wsdl" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="6f352020-9378-40f1-b3cd-a33d1e14a9db" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="eb77d9a2-45cb-4179-96ec-4c01edbf66a8" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="1534aed6-e627-4f8c-914c-0ec8cb397365" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="ac0390db-3fa7-4f68-adc3-7e278f750ecd" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="3dce7da4-a99a-4c52-8350-021d45881020" SourceId="1" SourceUrl="https://gsivm-svr-devscm.gurusoft.dev:9503/PRDG11EISMWSMSService/Service.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
