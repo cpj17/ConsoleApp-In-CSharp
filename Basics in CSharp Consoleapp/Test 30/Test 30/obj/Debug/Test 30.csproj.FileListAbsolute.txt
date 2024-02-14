@@ -1,5 +1,0 @@
-D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 30\Test 30\bin\Debug\Test 30.exe.config
-D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 30\Test 30\bin\Debug\Test 30.exe
-D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 30\Test 30\bin\Debug\Test 30.pdb
-D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 30\Test 30\obj\Debug\Test 30.exe
-D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 30\Test 30\obj\Debug\Test 30.pdb
