@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\bin\Debug\PrimaryKeyInDT.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\bin\Debug\PrimaryKeyInDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\bin\Debug\PrimaryKeyInDT.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\obj\Debug\PrimaryKeyInDT.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\obj\Debug\PrimaryKeyInDT.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\obj\Debug\PrimaryKeyInDT.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\obj\Debug\PrimaryKeyInDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\PrimaryKeyInDT\PrimaryKeyInDT\obj\Debug\PrimaryKeyInDT.pdb
