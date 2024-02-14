@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sleep", "Sleep\Sleep.csproj", "{9D72A739-F46B-41A8-B681-28679570C16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D72A739-F46B-41A8-B681-28679570C16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D72A739-F46B-41A8-B681-28679570C16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D72A739-F46B-41A8-B681-28679570C16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D72A739-F46B-41A8-B681-28679570C16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEB87639-428B-496D-AAF5-2602A886C148}
+	EndGlobalSection
+EndGlobal

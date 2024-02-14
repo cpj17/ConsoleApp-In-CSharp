@@ -1,0 +1,16 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.runtimeconfig.dev.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\ref\Sleep.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\bin\Debug\net5.0\Sleep.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\ref\Sleep.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Sleep\Sleep\obj\Debug\net5.0\Sleep.genruntimeconfig.cache
