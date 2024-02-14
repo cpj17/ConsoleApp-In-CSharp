@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\bin\Debug\RenameFilesFromFolder.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\bin\Debug\RenameFilesFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\bin\Debug\RenameFilesFromFolder.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\obj\Debug\RenameFilesFromFolder.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\obj\Debug\RenameFilesFromFolder.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\obj\Debug\RenameFilesFromFolder.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\obj\Debug\RenameFilesFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RenameFilesFromFolder\RenameFilesFromFolder\obj\Debug\RenameFilesFromFolder.pdb

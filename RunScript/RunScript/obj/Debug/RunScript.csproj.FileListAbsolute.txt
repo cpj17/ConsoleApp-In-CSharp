@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\bin\Debug\RunScript.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\bin\Debug\RunScript.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\bin\Debug\RunScript.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\obj\Debug\RunScript.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\obj\Debug\RunScript.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\obj\Debug\RunScript.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\obj\Debug\RunScript.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\RunScript\RunScript\obj\Debug\RunScript.pdb
