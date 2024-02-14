@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\bin\Debug\ByteArrayToString.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\bin\Debug\ByteArrayToString.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\bin\Debug\ByteArrayToString.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\obj\Debug\ByteArrayToString.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\obj\Debug\ByteArrayToString.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\obj\Debug\ByteArrayToString.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\obj\Debug\ByteArrayToString.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ByteArrayToString\ByteArrayToString\obj\Debug\ByteArrayToString.pdb

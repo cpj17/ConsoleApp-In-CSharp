@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\bin\Debug\ChangeAttributesEXE.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\bin\Debug\ChangeAttributesEXE.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\bin\Debug\ChangeAttributesEXE.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\obj\Debug\ChangeAttributesEXE.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\obj\Debug\ChangeAttributesEXE.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\obj\Debug\ChangeAttributesEXE.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\obj\Debug\ChangeAttributesEXE.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ChangeAttributesEXE\ChangeAttributesEXE\obj\Debug\ChangeAttributesEXE.pdb
