@@ -1,0 +1,31 @@
+[
+    {
+        "INTERFACEDOCID": "MTMS-ADN-V01",
+        "MESSAGEID": "MTMS-ADN-20210915-01",
+        "BUSINESSENTITYID": "NLBSG",
+        "WAREHOUSEID": "NLBSC",
+        "HOSTID": "MTMS01",
+        "SCHEDULEDATE": "10/01/2022",
+        "PRODUCTTYPE": "Exchange",
+        "AsnItemDetail": [
+            {
+                "itemNumber": "b29157956k",
+                "title": "The war cry",
+                "collection": "General",
+                "language": "English",
+                "ageCategory": "JP",
+                "itemType": "Fiction",
+                "subjectCategory": "Fic",
+                "itemIdentificationBid": "b29157956k",
+                "author": "Brian McClellan",
+                "isbn": "9780854123421",
+                "rfidCategory": 20,
+                "callNumber": "b29157956k",
+                "publicationYear": "1999",
+                "orginatingBranchCode": "AMKCL",
+                "mediaCode": "Book",
+                "quantity": 10
+            }
+        ]
+    }
+]
