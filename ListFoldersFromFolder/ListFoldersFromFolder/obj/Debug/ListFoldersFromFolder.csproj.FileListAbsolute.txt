@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\bin\Debug\ListFoldersFromFolder.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\bin\Debug\ListFoldersFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\bin\Debug\ListFoldersFromFolder.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\obj\Debug\ListFoldersFromFolder.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\obj\Debug\ListFoldersFromFolder.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\obj\Debug\ListFoldersFromFolder.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\obj\Debug\ListFoldersFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ListFoldersFromFolder\ListFoldersFromFolder\obj\Debug\ListFoldersFromFolder.pdb
