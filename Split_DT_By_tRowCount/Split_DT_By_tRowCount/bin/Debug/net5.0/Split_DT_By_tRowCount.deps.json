@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Split_DT_By_tRowCount/1.0.0": {
+        "runtime": {
+          "Split_DT_By_tRowCount.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Split_DT_By_tRowCount/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
