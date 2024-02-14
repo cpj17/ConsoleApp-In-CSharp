@@ -1,0 +1,10 @@
+E:\WorkFolder\Praveen\Test 2\Test 2\bin\Debug\Test 2.exe.config
+E:\WorkFolder\Praveen\Test 2\Test 2\bin\Debug\Test 2.exe
+E:\WorkFolder\Praveen\Test 2\Test 2\bin\Debug\Test 2.pdb
+E:\WorkFolder\Praveen\Test 2\Test 2\obj\Debug\Test 2.csprojAssemblyReference.cache
+E:\WorkFolder\Praveen\Test 2\Test 2\obj\Debug\Test 2.csproj.CoreCompileInputs.cache
+E:\WorkFolder\Praveen\Test 2\Test 2\obj\Debug\Test 2.exe
+E:\WorkFolder\Praveen\Test 2\Test 2\obj\Debug\Test 2.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 2\Test 2\bin\Debug\Test 2.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 2\Test 2\obj\Debug\Test 2.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 2\Test 2\obj\Debug\Test 2.pdb
