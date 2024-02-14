@@ -1,0 +1,15 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\ReadDataFromInternet.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\ReadDataFromInternet.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\ReadDataFromInternet.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.xml
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.Bson.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\bin\Debug\Newtonsoft.Json.Bson.xml
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadDataFromInternet\ReadDataFromInternet\obj\Debug\ReadDataFromInternet.csproj.CopyComplete

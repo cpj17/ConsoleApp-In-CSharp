@@ -1,0 +1,14 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\bin\Debug\net6.0\ReadJsonFromLink.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\bin\Debug\net6.0\ReadJsonFromLink.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\bin\Debug\net6.0\ReadJsonFromLink.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\bin\Debug\net6.0\ReadJsonFromLink.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\bin\Debug\net6.0\ReadJsonFromLink.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\refint\ReadJsonFromLink.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ReadJsonFromLink.genruntimeconfig.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ReadJsonFromLink\ReadJsonFromLink\obj\Debug\net6.0\ref\ReadJsonFromLink.dll
