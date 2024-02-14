@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\bin\Debug\Get_n_RowsFromDT.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\bin\Debug\Get_n_RowsFromDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\bin\Debug\Get_n_RowsFromDT.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\obj\Debug\Get_n_RowsFromDT.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\obj\Debug\Get_n_RowsFromDT.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\obj\Debug\Get_n_RowsFromDT.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\obj\Debug\Get_n_RowsFromDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_n_RowsFromDT\Get_n_RowsFromDT\obj\Debug\Get_n_RowsFromDT.pdb

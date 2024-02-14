@@ -1,0 +1,16 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.runtimeconfig.dev.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\bin\Debug\net5.0\Get_Running_Process.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\ref\Get_Running_Process.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\Get_Running_Process.genruntimeconfig.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Get_Running_Process\Get_Running_Process\obj\Debug\net5.0\refint\Get_Running_Process.dll

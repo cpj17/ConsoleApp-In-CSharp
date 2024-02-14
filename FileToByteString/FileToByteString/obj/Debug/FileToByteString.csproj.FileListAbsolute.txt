@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\bin\Debug\FileToByteString.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\bin\Debug\FileToByteString.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\bin\Debug\FileToByteString.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\obj\Debug\FileToByteString.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\obj\Debug\FileToByteString.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\obj\Debug\FileToByteString.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\obj\Debug\FileToByteString.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileToByteString\FileToByteString\obj\Debug\FileToByteString.pdb

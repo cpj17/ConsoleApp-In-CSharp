@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\bin\Debug\FileEncryptAndDecrypt.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\bin\Debug\FileEncryptAndDecrypt.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\bin\Debug\FileEncryptAndDecrypt.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\obj\Debug\FileEncryptAndDecrypt.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\obj\Debug\FileEncryptAndDecrypt.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\obj\Debug\FileEncryptAndDecrypt.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\obj\Debug\FileEncryptAndDecrypt.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\FileEncryptAndDecrypt\FileEncryptAndDecrypt\obj\Debug\FileEncryptAndDecrypt.pdb
