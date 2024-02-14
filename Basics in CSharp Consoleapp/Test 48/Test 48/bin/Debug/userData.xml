@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="objDataTableStud">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Dept" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Ph" type="xs:int" minOccurs="0" />
+                <xs:element name="Yop" type="xs:int" minOccurs="0" />
+                <xs:element name="Dob" type="xs:string" minOccurs="0" />
+                <xs:element name="Gender" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <objDataTableStud>
+    <Name>cpj</Name>
+    <ID>101</ID>
+    <Dept>ece</Dept>
+    <Email>asd@rf.fg</Email>
+    <Ph>1432</Ph>
+    <Yop>2323</Yop>
+    <Dob>03/28/2004</Dob>
+    <Gender>M</Gender>
+  </objDataTableStud>
+  <objDataTableStud>
+    <Name>new</Name>
+    <ID>102</ID>
+    <Dept>IT</Dept>
+    <Email>123@new.in</Email>
+    <Ph>2233</Ph>
+    <Yop>2021</Yop>
+    <Dob>04/25/2004</Dob>
+    <Gender>M</Gender>
+  </objDataTableStud>
+</NewDataSet>
