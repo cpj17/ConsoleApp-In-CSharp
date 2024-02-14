@@ -1,0 +1,6 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\bin\Debug\Test 7.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\bin\Debug\Test 7.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\bin\Debug\Test 7.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\obj\Debug\Test 7.csprojResolveAssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\obj\Debug\Test 7.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 7\Test 7\obj\Debug\Test 7.pdb
