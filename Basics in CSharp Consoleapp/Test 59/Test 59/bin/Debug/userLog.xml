@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<User_DataSet>
+  <xs:schema id="User_DataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="User_DataSet" msdata:IsDataSet="true" msdata:MainDataTable="Log" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Username" type="xs:string" minOccurs="0" />
+                <xs:element name="TimeStamp" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Log>
+    <Username>cpj</Username>
+    <TimeStamp>2021-04-22T13:26:08.7716815+05:30</TimeStamp>
+  </Log>
+  <Log>
+    <Username>cpj3</Username>
+    <TimeStamp>2021-04-22T13:26:21.419509+05:30</TimeStamp>
+  </Log>
+  <Log>
+    <Username>cpj3</Username>
+    <TimeStamp>2021-04-22T13:27:56.3873303+05:30</TimeStamp>
+  </Log>
+  <Log>
+    <Username>aaa</Username>
+    <TimeStamp>2021-04-22T13:29:11.4830827+05:30</TimeStamp>
+  </Log>
+</User_DataSet>

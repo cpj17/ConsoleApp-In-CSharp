@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<STudent_DataSet>
+  <xs:schema id="STudent_DataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="STudent_DataSet" msdata:IsDataSet="true" msdata:MainDataTable="UserLog_DataTable" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UserLog_DataTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Username" type="xs:string" minOccurs="0" />
+                <xs:element name="TimeStamp" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SessionId" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//UserLog_DataTable" />
+        <xs:field xpath="SessionId" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <UserLog_DataTable>
+    <Username>cpj</Username>
+    <TimeStamp>2021-04-23T09:58:45.3491138+05:30</TimeStamp>
+    <SessionId>234202195845</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj2</Username>
+    <TimeStamp>2021-04-23T09:59:34.8484426+05:30</TimeStamp>
+    <SessionId>234202195934</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj2</Username>
+    <TimeStamp>2021-04-23T10:15:48.5784536+05:30</TimeStamp>
+    <SessionId>2342021101548</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj4</Username>
+    <TimeStamp>2021-04-23T10:18:09.5639305+05:30</TimeStamp>
+    <SessionId>234202110189</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj4</Username>
+    <TimeStamp>2021-04-23T10:18:26.0752407+05:30</TimeStamp>
+    <SessionId>2342021101826</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj</Username>
+    <TimeStamp>2021-04-23T10:20:24.5788619+05:30</TimeStamp>
+    <SessionId>2342021102024</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj</Username>
+    <TimeStamp>2021-04-23T10:21:09.7467598+05:30</TimeStamp>
+    <SessionId>234202110219</SessionId>
+  </UserLog_DataTable>
+  <UserLog_DataTable>
+    <Username>cpj2</Username>
+    <TimeStamp>2021-04-23T14:00:09.3288844+05:30</TimeStamp>
+    <SessionId>23420211409</SessionId>
+  </UserLog_DataTable>
+</STudent_DataSet>
