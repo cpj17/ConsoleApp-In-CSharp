@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\bin\Debug\ConsoleAppAsSVC.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\bin\Debug\ConsoleAppAsSVC.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\bin\Debug\ConsoleAppAsSVC.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\obj\Debug\ConsoleAppAsSVC.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\obj\Debug\ConsoleAppAsSVC.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\obj\Debug\ConsoleAppAsSVC.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\obj\Debug\ConsoleAppAsSVC.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ConsoleAppAsSVC\ConsoleAppAsSVC\obj\Debug\ConsoleAppAsSVC.pdb
