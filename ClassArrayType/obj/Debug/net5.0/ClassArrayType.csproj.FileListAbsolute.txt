@@ -1,0 +1,16 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.runtimeconfig.dev.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ref\ClassArrayType.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\bin\Debug\net5.0\ClassArrayType.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.csprojAssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ref\ClassArrayType.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ClassArrayType\obj\Debug\net5.0\ClassArrayType.genruntimeconfig.cache
