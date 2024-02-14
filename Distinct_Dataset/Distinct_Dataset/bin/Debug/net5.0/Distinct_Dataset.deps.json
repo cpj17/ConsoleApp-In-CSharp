@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Distinct_Dataset/1.0.0": {
+        "runtime": {
+          "Distinct_Dataset.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Distinct_Dataset/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

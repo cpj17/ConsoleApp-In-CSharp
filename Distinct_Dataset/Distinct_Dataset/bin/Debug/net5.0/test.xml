@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <t1>
+    <col1>c11</col1>
+    <col2>c12</col2>
+    <col3>c13</col3>
+  </t1>
+  <t1>
+    <col1>c11</col1>
+    <col2>c1432</col2>
+    <col3>c13</col3>
+  </t1>
+  <t1>
+    <col1>c141</col1>
+    <col2>c1432</col2>
+    <col3>c133</col3>
+  </t1>
+  <t1>
+    <col1>c141</col1>
+    <col2>c1432</col2>
+    <col3>c11</col3>
+  </t1>
+</NewDataSet>

@@ -1,0 +1,16 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.runtimeconfig.dev.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\bin\Debug\net5.0\Distinct_Dataset.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\ref\Distinct_Dataset.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\Distinct_Dataset.genruntimeconfig.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Distinct_Dataset\Distinct_Dataset\obj\Debug\net5.0\refint\Distinct_Dataset.dll

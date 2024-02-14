@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\bin\Debug\DeleteTempFolderFiles.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\bin\Debug\DeleteTempFolderFiles.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\bin\Debug\DeleteTempFolderFiles.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\obj\Debug\DeleteTempFolderFiles.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\obj\Debug\DeleteTempFolderFiles.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\obj\Debug\DeleteTempFolderFiles.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\obj\Debug\DeleteTempFolderFiles.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DeleteTempFolderFiles\DeleteTempFolderFiles\obj\Debug\DeleteTempFolderFiles.pdb

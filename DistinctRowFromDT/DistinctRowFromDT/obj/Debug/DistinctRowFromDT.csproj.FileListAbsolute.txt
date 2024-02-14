@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\bin\Debug\DistinctRowFromDT.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\bin\Debug\DistinctRowFromDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\bin\Debug\DistinctRowFromDT.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\obj\Debug\DistinctRowFromDT.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\obj\Debug\DistinctRowFromDT.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\obj\Debug\DistinctRowFromDT.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\obj\Debug\DistinctRowFromDT.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\DistinctRowFromDT\DistinctRowFromDT\obj\Debug\DistinctRowFromDT.pdb
