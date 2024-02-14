@@ -1,0 +1,11 @@
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 52\Test 52\bin\Debug\Test 52.exe.config
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 52\Test 52\bin\Debug\Test 52.exe
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 52\Test 52\bin\Debug\Test 52.pdb
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 52\Test 52\obj\Debug\Test 52.exe
+c:\users\gsiad-023\documents\visual studio 2013\Projects\Test 52\Test 52\obj\Debug\Test 52.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\bin\Debug\Test 52.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\obj\Debug\Test 52.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\obj\Debug\Test 52.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\bin\Debug\Test 52.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\bin\Debug\Test 52.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 52\Test 52\obj\Debug\Test 52.csprojResolveAssemblyReference.cache
