@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\bin\Debug\GetEmptyColumnRows.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\bin\Debug\GetEmptyColumnRows.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\bin\Debug\GetEmptyColumnRows.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\obj\Debug\GetEmptyColumnRows.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\obj\Debug\GetEmptyColumnRows.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\obj\Debug\GetEmptyColumnRows.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\obj\Debug\GetEmptyColumnRows.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetEmptyColumnRows\GetEmptyColumnRows\obj\Debug\GetEmptyColumnRows.pdb

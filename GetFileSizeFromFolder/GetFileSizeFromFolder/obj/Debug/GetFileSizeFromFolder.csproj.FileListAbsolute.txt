@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\bin\Debug\GetFileSizeFromFolder.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\bin\Debug\GetFileSizeFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\bin\Debug\GetFileSizeFromFolder.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\obj\Debug\GetFileSizeFromFolder.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\obj\Debug\GetFileSizeFromFolder.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\obj\Debug\GetFileSizeFromFolder.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\obj\Debug\GetFileSizeFromFolder.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetFileSizeFromFolder\GetFileSizeFromFolder\obj\Debug\GetFileSizeFromFolder.pdb

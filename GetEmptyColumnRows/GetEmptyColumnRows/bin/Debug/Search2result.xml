@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="t1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BE_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANS_DATE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATE_FROM" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATE_TO" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="REMARKS" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_1" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_2" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_3" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_4" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_5" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_6" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_7" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_8" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_9" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCE_NO_1" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="REFERENCE_NO_2" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="REFERENCE_NO_3" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="REFERENCE_DATE_1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="REFERENCE_DATE_2" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="REFERENCE_DATE_3" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="GW_STATUS" type="xs:string" default="UNSEND" minOccurs="0" />
+                <xs:element name="DATA_SOURCE" type="xs:string" default="APPLICATION" minOccurs="0" />
+                <xs:element name="CREATED_AT" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED_ON" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MODIFIED_AT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODIFIED_BY" type="xs:string" minOccurs="0" />
+                <xs:element name="MODIFIED_ON" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SYS_STAMP" type="xs:string" minOccurs="0" />
+                <xs:element name="DELMARK" type="xs:string" default="N" minOccurs="0" />
+                <xs:element name="ERROR_INDEX" type="xs:string" minOccurs="0" />
+                <xs:element name="rec_no" type="xs:long" minOccurs="0" />
+                <xs:element name="be_id" type="xs:string" minOccurs="0" />
+                <xs:element name="invoice_created_date" type="xs:string" minOccurs="0" />
+                <xs:element name="from_date" type="xs:string" minOccurs="0" />
+                <xs:element name="to_date" type="xs:string" minOccurs="0" />
+                <xs:element name="sap_desc" type="xs:string" minOccurs="0" />
+                <xs:element name="InvoiceNo" type="xs:string" minOccurs="0" />
+                <xs:element name="batch_id" type="xs:string" minOccurs="0" />
+                <xs:element name="total_amt" type="xs:int" minOccurs="0" />
+                <xs:element name="fiscal_month" type="xs:string" minOccurs="0" />
+                <xs:element name="currency" type="xs:string" minOccurs="0" />
+                <xs:element name="posting_key" type="xs:string" minOccurs="0" />
+                <xs:element name="calculate_tax" type="xs:string" minOccurs="0" />
+                <xs:element name="cost_center" type="xs:string" minOccurs="0" />
+                <xs:element name="tax_code" type="xs:string" minOccurs="0" />
+                <xs:element name="account_id" type="xs:string" minOccurs="0" />
+                <xs:element name="act_account_id" type="xs:string" minOccurs="0" />
+                <xs:element name="hrn_id" type="xs:string" minOccurs="0" />
+                <xs:element name="pat_name" type="xs:string" minOccurs="0" />
+                <xs:element name="rptreq_id" type="xs:string" minOccurs="0" />
+                <xs:element name="request_id" type="xs:string" minOccurs="0" />
+                <xs:element name="requested_by" type="xs:string" minOccurs="0" />
+                <xs:element name="request_reference" type="xs:string" minOccurs="0" />
+                <xs:element name="bu_code" type="xs:string" minOccurs="0" />
+                <xs:element name="gst_amt" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="t2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BE_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="fiscal_month" type="xs:string" minOccurs="0" />
+                <xs:element name="invoice_created_date" type="xs:string" minOccurs="0" />
+                <xs:element name="from_date" type="xs:string" minOccurs="0" />
+                <xs:element name="to_date" type="xs:string" minOccurs="0" />
+                <xs:element name="sap_desc" type="xs:string" minOccurs="0" />
+                <xs:element name="total_amt" type="xs:int" minOccurs="0" />
+                <xs:element name="currency" type="xs:string" minOccurs="0" />
+                <xs:element name="tax_code" type="xs:string" minOccurs="0" />
+                <xs:element name="InvoiceNo" type="xs:string" minOccurs="0" />
+                <xs:element name="posting_key" type="xs:string" minOccurs="0" />
+                <xs:element name="account_id" type="xs:string" minOccurs="0" />
+                <xs:element name="act_account_id" type="xs:string" minOccurs="0" />
+                <xs:element name="calculate_tax" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_1" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_2" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_3" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_4" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_5" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_6" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_7" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_8" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_9" type="xs:string" minOccurs="0" />
+                <xs:element name="reference_no_1" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="reference_no_2" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="reference_no_3" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="reference_date_1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="reference_date_2" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="reference_date_3" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="gw_status" type="xs:string" default="UNSEND" minOccurs="0" />
+                <xs:element name="data_source" type="xs:string" default="APPLICATION" minOccurs="0" />
+                <xs:element name="created_at" type="xs:string" minOccurs="0" />
+                <xs:element name="created_by" type="xs:string" minOccurs="0" />
+                <xs:element name="created_on" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="modified_at" type="xs:string" minOccurs="0" />
+                <xs:element name="modified_by" type="xs:string" minOccurs="0" />
+                <xs:element name="modified_on" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="sys_stamp" type="xs:string" minOccurs="0" />
+                <xs:element name="delmark" type="xs:string" default="N" minOccurs="0" />
+                <xs:element name="error_index" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <t1>
+    <BE_ID>CGH</BE_ID>
+    <REFERENCE_NO_1>0</REFERENCE_NO_1>
+    <REFERENCE_NO_2>0</REFERENCE_NO_2>
+    <REFERENCE_NO_3>0</REFERENCE_NO_3>
+    <GW_STATUS>UNSEND</GW_STATUS>
+    <DATA_SOURCE>APPLICATION</DATA_SOURCE>
+    <DELMARK>N</DELMARK>
+    <rec_no>1</rec_no>
+    <be_id>CGH</be_id>
+    <invoice_created_date>25032023</invoice_created_date>
+    <from_date>24-02-2023</from_date>
+    <to_date>23-03-2023</to_date>
+    <sap_desc>14-03-2023 S0670360G TAN QUEE CHOO</sap_desc>
+    <InvoiceNo>RPI202303140000001</InvoiceNo>
+    <batch_id>RPI202303140000001</batch_id>
+    <total_amt>210</total_amt>
+    <fiscal_month>12</fiscal_month>
+    <currency>SGD</currency>
+    <posting_key>50</posting_key>
+    <calculate_tax>X</calculate_tax>
+    <cost_center>86210</cost_center>
+    <tax_code>O7</tax_code>
+    <account_id>37000010</account_id>
+    <act_account_id>9002000030</act_account_id>
+    <hrn_id>S0670360G</hrn_id>
+    <pat_name>TAN QUEE CHOO</pat_name>
+    <rptreq_id>C/CABEMC</rptreq_id>
+    <request_id>MFS1/2023/0000522</request_id>
+    <requested_by>NA</requested_by>
+    <request_reference>TERTGR</request_reference>
+    <bu_code />
+    <gst_amt>0</gst_amt>
+  </t1>
+  <t1>
+    <BE_ID>CGH</BE_ID>
+    <REFERENCE_NO_1>0</REFERENCE_NO_1>
+    <REFERENCE_NO_2>0</REFERENCE_NO_2>
+    <REFERENCE_NO_3>0</REFERENCE_NO_3>
+    <GW_STATUS>UNSEND</GW_STATUS>
+    <DATA_SOURCE>APPLICATION</DATA_SOURCE>
+    <DELMARK>N</DELMARK>
+    <rec_no>2</rec_no>
+    <be_id>CGH</be_id>
+    <invoice_created_date>25032023</invoice_created_date>
+    <from_date>24-02-2023</from_date>
+    <to_date>23-03-2023</to_date>
+    <sap_desc>14-03-2023 S0671003D HABSAH BINTE AMAT</sap_desc>
+    <batch_id>RPI202303140000001</batch_id>
+    <total_amt>110</total_amt>
+    <fiscal_month>12</fiscal_month>
+    <currency>SGD</currency>
+    <posting_key>50</posting_key>
+    <calculate_tax>X</calculate_tax>
+    <cost_center>86210</cost_center>
+    <tax_code>O7</tax_code>
+    <account_id>37000010</account_id>
+    <act_account_id>9002000030</act_account_id>
+    <hrn_id>S0671003D</hrn_id>
+    <pat_name>HABSAH BINTE AMAT</pat_name>
+    <rptreq_id>C/CABMC</rptreq_id>
+    <request_id>MFS/2023/0000519</request_id>
+    <requested_by>NA</requested_by>
+    <request_reference>FSEF/123</request_reference>
+    <bu_code />
+    <gst_amt>0</gst_amt>
+  </t1>
+  <t1>
+    <BE_ID>CGH</BE_ID>
+    <REFERENCE_NO_1>0</REFERENCE_NO_1>
+    <REFERENCE_NO_2>0</REFERENCE_NO_2>
+    <REFERENCE_NO_3>0</REFERENCE_NO_3>
+    <GW_STATUS>UNSEND</GW_STATUS>
+    <DATA_SOURCE>APPLICATION</DATA_SOURCE>
+    <DELMARK>N</DELMARK>
+    <rec_no>3</rec_no>
+    <be_id>CGH</be_id>
+    <invoice_created_date>25032023</invoice_created_date>
+    <from_date>24-02-2023</from_date>
+    <to_date>23-03-2023</to_date>
+    <sap_desc>14-03-2023 S0671189H LOPEZ THERESA M NEE ORCHARD THERESA MAGDELENE</sap_desc>
+    <InvoiceNo>RPA0000012</InvoiceNo>
+    <batch_id>RPI202303140000001</batch_id>
+    <total_amt>230</total_amt>
+    <fiscal_month>12</fiscal_month>
+    <currency>SGD</currency>
+    <posting_key>50</posting_key>
+    <calculate_tax>X</calculate_tax>
+    <cost_center>86210</cost_center>
+    <tax_code>O7</tax_code>
+    <account_id>37000010</account_id>
+    <act_account_id>9003008848</act_account_id>
+    <hrn_id>S0671189H</hrn_id>
+    <pat_name>LOPEZ THERESA M NEE ORCHARD THERESA MAGDELENE</pat_name>
+    <rptreq_id>I/AIA (BB TAMPINES)</rptreq_id>
+    <request_id>MPOMR1/2023/0000518</request_id>
+    <requested_by>NA</requested_by>
+    <request_reference>CFEGH</request_reference>
+    <bu_code />
+    <gst_amt>0</gst_amt>
+  </t1>
+  <t1>
+    <BE_ID>CGH</BE_ID>
+    <REFERENCE_NO_1>0</REFERENCE_NO_1>
+    <REFERENCE_NO_2>0</REFERENCE_NO_2>
+    <REFERENCE_NO_3>0</REFERENCE_NO_3>
+    <GW_STATUS>UNSEND</GW_STATUS>
+    <DATA_SOURCE>APPLICATION</DATA_SOURCE>
+    <DELMARK>N</DELMARK>
+    <rec_no>4</rec_no>
+    <be_id>CGH</be_id>
+    <invoice_created_date>25032023</invoice_created_date>
+    <from_date>24-02-2023</from_date>
+    <to_date>23-03-2023</to_date>
+    <sap_desc>14-03-2023 S0670363A TAN CHOO HOO</sap_desc>
+    <batch_id>RPI202303140000001</batch_id>
+    <total_amt>651</total_amt>
+    <fiscal_month>12</fiscal_month>
+    <currency>SGD</currency>
+    <posting_key>50</posting_key>
+    <calculate_tax>X</calculate_tax>
+    <cost_center>86210</cost_center>
+    <tax_code>O7</tax_code>
+    <account_id>37000010</account_id>
+    <act_account_id>9002000003</act_account_id>
+    <hrn_id>S0670363A</hrn_id>
+    <pat_name>TAN CHOO HOO</pat_name>
+    <rptreq_id>P/APD</rptreq_id>
+    <request_id>MPI2/2023/0000521</request_id>
+    <requested_by>NA</requested_by>
+    <request_reference>EREWR</request_reference>
+    <bu_code>MHA32</bu_code>
+    <gst_amt>0</gst_amt>
+  </t1>
+  <t1>
+    <BE_ID>CGH</BE_ID>
+    <REFERENCE_NO_1>0</REFERENCE_NO_1>
+    <REFERENCE_NO_2>0</REFERENCE_NO_2>
+    <REFERENCE_NO_3>0</REFERENCE_NO_3>
+    <GW_STATUS>UNSEND</GW_STATUS>
+    <DATA_SOURCE>APPLICATION</DATA_SOURCE>
+    <DELMARK>N</DELMARK>
+    <rec_no>5</rec_no>
+    <be_id>CGH</be_id>
+    <invoice_created_date>25032023</invoice_created_date>
+    <from_date>24-02-2023</from_date>
+    <to_date>23-03-2023</to_date>
+    <sap_desc>14-03-2023 S0670695I CHEONG SOON SENG</sap_desc>
+    <InvoiceNo>RPA0000013</InvoiceNo>
+    <batch_id>RPI202303140000001</batch_id>
+    <total_amt>35</total_amt>
+    <fiscal_month>12</fiscal_month>
+    <currency>SGD</currency>
+    <posting_key>50</posting_key>
+    <calculate_tax>X</calculate_tax>
+    <cost_center>86210</cost_center>
+    <tax_code>O7</tax_code>
+    <account_id>37000010</account_id>
+    <act_account_id>9002000006</act_account_id>
+    <hrn_id>S0670695I</hrn_id>
+    <pat_name>CHEONG SOON SENG</pat_name>
+    <rptreq_id>P/BPS</rptreq_id>
+    <request_id>MPI1/2023/0000520</request_id>
+    <requested_by>NA</requested_by>
+    <request_reference>FHHG</request_reference>
+    <bu_code>MHA27</bu_code>
+    <gst_amt>0</gst_amt>
+  </t1>
+</NewDataSet>

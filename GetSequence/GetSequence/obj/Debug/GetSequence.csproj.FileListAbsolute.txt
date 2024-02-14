@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\bin\Debug\GetSequence.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\bin\Debug\GetSequence.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\bin\Debug\GetSequence.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\obj\Debug\GetSequence.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\obj\Debug\GetSequence.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\obj\Debug\GetSequence.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\obj\Debug\GetSequence.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\GetSequence\GetSequence\obj\Debug\GetSequence.pdb
