@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <UserId>1</UserId>
+    <UserName>Satinder Singh</UserName>
+    <Education>Bsc Com Sci</Education>
+    <Location>Mumbai</Location>
+  </Table1>
+</NewDataSet>

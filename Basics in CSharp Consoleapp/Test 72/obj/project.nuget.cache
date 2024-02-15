@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LtXHhLu95/pZUEMIjzNczre/QBM2aQBKroTi5csp3XRtWxAN3UsXBHP6YTxOm8T0PEPnM5yNwmNAHdOQP01Eow==",
+  "success": true,
+  "projectFilePath": "D:\\WorkFolder\\PRAVEEN JEEVA\\BASIC\\Test 72\\Test 72.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gsiad-023\\.nuget\\packages\\json.net\\1.0.31\\json.net.1.0.31.nupkg.sha512",
+    "C:\\Users\\gsiad-023\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

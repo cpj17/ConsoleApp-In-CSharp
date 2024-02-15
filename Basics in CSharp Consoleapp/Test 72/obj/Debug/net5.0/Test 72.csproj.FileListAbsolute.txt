@@ -1,0 +1,19 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.csprojAssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.AssemblyInfoInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.AssemblyInfo.cs
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.deps.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.runtimeconfig.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.runtimeconfig.dev.json
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\ref\Test 72.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Test 72.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.csproj.CopyComplete
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\ref\Test 72.dll
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\obj\Debug\net5.0\Test 72.genruntimeconfig.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\Test 72\bin\Debug\net5.0\Json.Net.dll
