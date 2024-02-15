@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+  <FCL0101R1V1ERRORLOG1>
+    <column_name>ERROR_INDEX</column_name>
+    <display_name>ID</display_name>
+    <data_type>STRING</data_type>
+    <column_width>80</column_width>
+    <list_view_position>C001</list_view_position>
+    <field_source />
+    <field_type>READONLY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1ERRORLOG1>
+  <FCL0101R1V1ERRORLOG1>
+    <column_name>ERROR_MSG</column_name>
+    <display_name>Erro Description</display_name>
+    <data_type>STRING</data_type>
+    <column_width>200</column_width>
+    <list_view_position>C002</list_view_position>
+    <field_source />
+    <field_type>READONLY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1ERRORLOG1>
+  <FCL0101R1V1ERRORLOG1>
+    <column_name>ERROR_CODE</column_name>
+    <display_name>Error Code</display_name>
+    <data_type>STRING</data_type>
+    <column_width>30</column_width>
+    <list_view_position>C003</list_view_position>
+    <field_source />
+    <field_type>READONLY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1ERRORLOG1>
+  <FCL0101R1V1LEVEL11>
+    <column_name>NAME</column_name>
+    <display_name>Name</display_name>
+    <data_type>STRING</data_type>
+    <column_width>103</column_width>
+    <list_view_position>C002</list_view_position>
+    <field_source />
+    <field_type>MANDATORY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>128</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position>S002</dynamic_search_position>
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3>LIKE</reference_3>
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>SYMBOL</column_name>
+    <display_name>Symbol</display_name>
+    <data_type>STRING</data_type>
+    <column_width>54</column_width>
+    <list_view_position>C003</list_view_position>
+    <field_source />
+    <field_type>OPTIONAL</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>8</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>DEFAULT_EXRATE</column_name>
+    <display_name>Default X-rate</display_name>
+    <data_type>DECIMAL</data_type>
+    <column_width>85</column_width>
+    <list_view_position>C004</list_view_position>
+    <field_source />
+    <field_type>MANDATORY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>14</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format>EXRATE</format>
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>CREATED_BY</column_name>
+    <display_name>Created  By</display_name>
+    <data_type>STRING</data_type>
+    <column_width>72</column_width>
+    <list_view_position>C007</list_view_position>
+    <field_source />
+    <field_type>READONLY</field_type>
+    <visibility>N</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3>LIKE</reference_3>
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>BECUR_ID</column_name>
+    <display_name>ID</display_name>
+    <data_type>STRING</data_type>
+    <column_width>37</column_width>
+    <list_view_position>C001</list_view_position>
+    <field_source />
+    <field_type>MANDATORY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto>SAVE_AFTER_READONLY</field_type_changeto>
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>UPPER</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position>S001</dynamic_search_position>
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3>LIKE</reference_3>
+    <reference_4>AND</reference_4>
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>MODIFIED_BY</column_name>
+    <display_name>Modified By</display_name>
+    <data_type>STRING</data_type>
+    <column_width>75</column_width>
+    <list_view_position>C008</list_view_position>
+    <field_source />
+    <field_type>READONLY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>REFERENCE_1</column_name>
+    <display_name>Functional Currency</display_name>
+    <data_type>STRING</data_type>
+    <column_width>122</column_width>
+    <list_view_position>C005</list_view_position>
+    <field_source />
+    <field_type>OPTIONAL</field_type>
+    <visibility>N</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <reference_4 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>REFERENCE_2</column_name>
+    <display_name>Fractional Currency</display_name>
+    <data_type>STRING</data_type>
+    <column_width>111</column_width>
+    <list_view_position>C006</list_view_position>
+    <field_source />
+    <field_type>OPTIONAL</field_type>
+    <visibility>N</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3 />
+    <reference_4 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>DELMARK</column_name>
+    <display_name>Delete Mark</display_name>
+    <data_type>STRING</data_type>
+    <column_width>1</column_width>
+    <list_view_position>C009</list_view_position>
+    <field_source />
+    <field_type>MANDATORY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto />
+    <gs_description />
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check />
+    <gs_uncheck />
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format />
+    <expression>N</expression>
+    <aliasename_1 />
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns />
+    <dynamic_search_position />
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value />
+    <rptpm_name />
+    <rptpm_seq_no />
+    <reference_1 />
+    <reference_2 />
+    <reference_3>90</reference_3>
+    <reference_4 />
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>CREATED_ON</column_name>
+    <display_name>Created On</display_name>
+    <data_type>STRING</data_type>
+    <column_width>150</column_width>
+    <list_view_position>C009</list_view_position>
+    <field_source></field_source>
+    <field_type>READONLY</field_type>
+    <visibility>N</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto></field_type_changeto>
+    <gs_description></gs_description>
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check></gs_check>
+    <gs_uncheck></gs_uncheck>
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format></format>
+    <expression>N</expression>
+    <aliasename_1></aliasename_1>
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns></filter_columns>
+    <dynamic_search_position></dynamic_search_position>
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value></rptpm_default_value>
+    <rptpm_name></rptpm_name>
+    <rptpm_seq_no></rptpm_seq_no>
+    <reference_1></reference_1>
+    <reference_2></reference_2>
+    <reference_3></reference_3>
+    <reference_4></reference_4>
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+    <gw_status>UNSEND</gw_status>
+    <data_source>APPLICATION</data_source>
+    <modified_at>GSI-DTP-19-009</modified_at>
+    <user_id>ADMIN</user_id>
+    <filter_value></filter_value>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <column_name>MODIFIED_ON</column_name>
+    <display_name>Modified On</display_name>
+    <data_type>STRING</data_type>
+    <column_width>150</column_width>
+    <list_view_position>C010</list_view_position>
+    <field_source></field_source>
+    <field_type>READONLY</field_type>
+    <visibility>Y</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto></field_type_changeto>
+    <gs_description></gs_description>
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <gs_check></gs_check>
+    <gs_uncheck></gs_uncheck>
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format></format>
+    <expression>N</expression>
+    <aliasename_1></aliasename_1>
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <filter_columns></filter_columns>
+    <dynamic_search_position></dynamic_search_position>
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <rptpm_default_value></rptpm_default_value>
+    <rptpm_name></rptpm_name>
+    <rptpm_seq_no></rptpm_seq_no>
+    <reference_1></reference_1>
+    <reference_2></reference_2>
+    <reference_3>Y</reference_3>
+    <reference_4></reference_4>
+    <lang_id>ENG</lang_id>
+    <form_id>FCL0101R1V1</form_id>
+    <gw_status>UNSEND</gw_status>
+    <data_source>APPLICATION</data_source>
+    <modified_at>GSI-DTP-19-009</modified_at>
+    <user_id>ADMIN</user_id>
+    <filter_value></filter_value>
+  </FCL0101R1V1LEVEL11>
+  <FCL0101R1V1LEVEL11>
+    <lang_id>ENG</lang_id>
+    <column_name>GW_STATUS</column_name>
+    <display_name>GW Status</display_name>
+    <data_type>STRING</data_type>
+    <column_width>150</column_width>
+    <default_cursor_focus>N</default_cursor_focus>
+    <concealed>N</concealed>
+    <rptpm_default_value></rptpm_default_value>
+    <rptpm_name></rptpm_name>
+    <rptpm_seq_no></rptpm_seq_no>
+    <list_view_position>C001</list_view_position>
+    <field_source></field_source>
+    <field_type>READONLY</field_type>
+    <visibility>N</visibility>
+    <column_index>1</column_index>
+    <row_index>0</row_index>
+    <row_span>1</row_span>
+    <column_span>1</column_span>
+    <min_value>0</min_value>
+    <max_value>0</max_value>
+    <field_type_changeto></field_type_changeto>
+    <gs_description></gs_description>
+    <gs_check></gs_check>
+    <gs_uncheck></gs_uncheck>
+    <max_length>50</max_length>
+    <character_casing>NORMAL</character_casing>
+    <text_wrapping>NOWRAP</text_wrapping>
+    <format></format>
+    <expression>N</expression>
+    <aliasename_1></aliasename_1>
+    <view_mode>DATAGRID</view_mode>
+    <control>GSTEXTBOX</control>
+    <dynamic_search_position></dynamic_search_position>
+    <gw_status>UNSEND</gw_status>
+    <data_source>APPLICATION</data_source>
+    <modified_at>GS-NBK-19-001</modified_at>
+    <filter_columns></filter_columns>
+    <static_filter_flag>N</static_filter_flag>
+    <type>FORMS</type>
+    <user_id>ADMIN</user_id>
+    <allow_copy_flag>Y</allow_copy_flag>
+    <special_valid_flag>N</special_valid_flag>
+    <reference_2></reference_2>
+    <form_id>FCL0101R1V1</form_id>
+    <reference_1></reference_1>
+    <reference_3></reference_3>
+    <reference_4></reference_4>
+    <filter_value></filter_value>
+  </FCL0101R1V1LEVEL11>
+</NewDataSet>
