@@ -1,0 +1,8 @@
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\bin\Debug\ZipArcive.exe.config
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\bin\Debug\ZipArcive.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\bin\Debug\ZipArcive.pdb
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\obj\Debug\ZipArcive.csproj.AssemblyReference.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\obj\Debug\ZipArcive.csproj.SuggestedBindingRedirects.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\obj\Debug\ZipArcive.csproj.CoreCompileInputs.cache
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\obj\Debug\ZipArcive.exe
+D:\WorkFolder\PRAVEEN JEEVA\BASIC\ZipArcive\ZipArcive\obj\Debug\ZipArcive.pdb
