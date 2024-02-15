@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<STudent_DataSet>
+  <xs:schema id="STudent_DataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="STudent_DataSet" msdata:IsDataSet="true" msdata:MainDataTable="User_DataTable" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="User_DataTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Username" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <User_DataTable>
+    <Name>Praveen</Name>
+    <Username>cpj</Username>
+    <Password>11</Password>
+  </User_DataTable>
+  <User_DataTable>
+    <Name>Jeeva</Name>
+    <Username>cpj2</Username>
+    <Password>22</Password>
+  </User_DataTable>
+  <User_DataTable>
+    <Name>Warner</Name>
+    <Username>cpj3</Username>
+    <Password>33</Password>
+  </User_DataTable>
+  <User_DataTable>
+    <Name>Smith</Name>
+    <Username>cpj4</Username>
+    <Password>44</Password>
+  </User_DataTable>
+</STudent_DataSet>
